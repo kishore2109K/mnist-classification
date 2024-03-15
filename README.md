@@ -34,7 +34,7 @@ Compile and fit the model and then predict
 
 
 
-
+```python
 import numpy as np
 from tensorflow import keras
 from tensorflow.keras import layers
@@ -161,6 +161,7 @@ x_single_prediction = np.argmax(
      axis=1)
 
 print(x_single_prediction)
+```
 
 ## OUTPUT
 
